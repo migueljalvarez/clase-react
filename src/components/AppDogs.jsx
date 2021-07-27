@@ -1,9 +1,11 @@
 import React, {Component} from "react";
+import Nav from "./Nav";
+
 class AppDogs extends Component {
   render(){
     return (
       <div>
-        <h1>Principal</h1>
+        <Nav/>
       </div>
     )
   }

@@ -1,11 +1,13 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 import AppDogs from "../components/AppDogs";
 
 class App extends Component {
-  render(){
+  render() {
     return (
-      <AppDogs/>
-    )
+      <div>
+        <AppDogs />
+      </div>
+    );
   }
 }
 
